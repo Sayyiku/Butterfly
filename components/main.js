@@ -660,16 +660,16 @@ export default function Main() {
   const RenderMaker = () => (
     <div className="lg:absolute lg:bottom-[20px] flex flex-col items-center justify-center pb-5 text-sm lg:pb-0 lg:pt-20 dark:text-gray-400 lg:flex-row opacity-60">
       <a
-        href="https://twitter.com/thelifeofrishi"
+        href="https://twitter.com/Sayyiku"
         target="_blank"
         className="flex items-center hover:underline"
       >
         <span className="w-5 h-5 mx-1">{TwitterIcon}</span>
-        Created by Rishi Mohan
+        Created by Sayyiku
       </a>
       <span className="hidden px-2 lg:block">-</span>
       <a
-        href="https://github.com/rishimohan/pika"
+        href="https://github.com/Sayyiku/Butterfly"
         target="_blank"
         className="flex items-center mt-2 hover:underline lg:mt-0"
       >
@@ -678,12 +678,22 @@ export default function Main() {
       </a>
       <span className="hidden px-2 lg:block">-</span>
       <a
-        href="https://www.buymeacoffee.com/thelifeofrishi"
+        href="https://www.buymeacoffee.com/sayyiku"
         target="_blank"
         className="flex items-center mt-2 hover:underline lg:mt-0"
       >
         <span className="w-5 h-5 mx-1">{CoffeeIcon}</span>
         Buy me a coffee
+      </a>
+      
+ 
+      <span className="hidden px-2 lg:block">-</span>
+      <a
+        href="https://twitter.com/thelifeofrishi"
+        target="_blank"
+        className="flex items-center mt-2 hover:underline lg:mt-0"
+      >
+        Thanks @ Rishi Mohan
       </a>
     </div>
   );
